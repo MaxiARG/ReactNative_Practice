@@ -13,6 +13,18 @@ const Drawer = createDrawerNavigator();
 function HomeScreen() {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <View style={{
+      width:'50%', 
+      borderRadius: 25, 
+      alignItems:'center', 
+      height:'30%', 
+      alignSelf:'flex-start', 
+      left:20, 
+      backgroundColor:'red'}}>
+        <View style={{backgroundColor:'orange', flex:1, width:'80%'}}>
+          <Text>Test</Text>
+        </View>
+      </View>
       <Text>Home Screen</Text>
     </View>
   );
